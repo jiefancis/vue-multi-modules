@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>邀约</title>
+	<link rel="shortcut icon" href="static/img/favicon20180320.ico" />
+	<link rel="bookmark" href="static/img/favicon.ico" />
+	<script type="text/javascript" src="//i.zhenai.com/pad/common/report.js"></script>
+	<script type="text/javascript">
+		window.onerror = function (message, source, lineno, colno, error) {
+			console.log('onerror: ', message, source, lineno, colno, error)
+			REPORT.error({
+				data: {
+					msg: message,
+					file: location.href,
+					line: lineno
+				}
+			})
+		}
+	</script>
+</head>
+
+<body>
+	<div id="app"></div>
+	<!-- built files will be auto injected -->
+	<!-- <script src="/common/static/vue.min.js"></script>
+	<script src="/common/static/vue-router.min.js"></script>
+	<script src="/common/static/vuex.min.js"></script>
+	<script src="/common/static/element-ui.min.js"></script> -->
+</body>
+
+</html>
