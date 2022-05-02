@@ -4,29 +4,29 @@
 
 
 **项目组织架构**
-	build
-	config
-        conf.js -- 对应子系统的本地运行端口配置
-	src
-		common--各个子系统的公共资源
-		invite
-			src
-				assets
-				pages/views
-				router
-				main.js
-			static
-			index.html
-		service
-			src
-				assets
-				pages/views
-				router
-				main.js
-			static
-			index.html
-	build.js -- 重新定义的npm run build指令运行文件
-	dev.js   -- npm run dev 本地运行文件
+	- build  
+	- config  
+        - conf.js -- 对应子系统的本地运行端口配置  
+	- src  
+		- common--各个子系统的公共资源  
+		- invite  
+			- src  
+				- assets  
+				- pages/views  
+				- router  
+				- main.js  
+			- static  
+			- index.html  
+		- service  
+			- src  
+				- assets  
+				- pages/views  
+				- router  
+				- main.js  
+			- static  
+			- index.html  
+	- build.js -- 重新定义的npm run build指令运行文件  
+	- dev.js   -- npm run dev 本地运行文件  
 
 
 **期望**
